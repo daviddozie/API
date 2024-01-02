@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #010101;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+}
+
+.item {
+    border: 2px solid rgb(158, 114, 3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
